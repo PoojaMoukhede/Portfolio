@@ -204,7 +204,6 @@
       });
   }),
     e(window).on("load", function () {
-      e(".loader-icon").fadeOut(400),
-        e(".loader").delay(500).fadeOut("slow");
+      e(".loader-icon").fadeOut(400), e(".loader").delay(500).fadeOut("slow");
     });
 })(jQuery);
